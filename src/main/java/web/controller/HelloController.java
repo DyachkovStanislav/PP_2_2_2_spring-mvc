@@ -17,6 +17,7 @@ public class HelloController {
 		messages.add("Hello!");
 		messages.add("I'm Spring MVC application");
 		messages.add("5.2.0 version by sep'19 ");
+		messages.add("add the '/cars' to the address to go to the table Cars ");
 		model.addAttribute("messages", messages);
 		return "index";
 	}
